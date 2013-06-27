@@ -1,0 +1,17 @@
+query vector size is 1
+url: http://www.pcrush.com/search.asp?kw=dell
+regex: (?ms)<div style="height:65px;overflow:hidden;">.+?<a href="([^"]*).+?>([^<]*).+?<span class="big_red_price">([^<]*)
+extract the content now
+extract url http://www.pcrush.com/search.asp?kw=dell finished
+total number extracted: 10
+url: http://www.amazon.com/s/ref=nb_sb_noss?url=search-alias%3Delectronics&field-keywords=dell&rh=n%3A172282%2Ck%3Adell
+regex: (?ms)<div id="result_.+?<a href="([^"]*).+?<span class="lrg bold">([^<]*).+?<span class="bld lrg red">([^<]*).+?<a alt="([^"]*).+?
+extract the content now
+extract url http://www.amazon.com/s/ref=nb_sb_noss?url=search-alias%3Delectronics&field-keywords=dell&rh=n%3A172282%2Ck%3Adell finished
+total number extracted: 10
+url: http://www.kmart.com/shc/s/search_10151_10104
+regex: (?ms)itemprop="name.+?href="([^\"]*).+?title="([^\"]*).+?itemprop="price([^<]*).+?
+extract the content now
+extract url http://www.kmart.com/shc/s/search_10151_10104 finished
+total number extracted: 10
+print the result now
